@@ -19,7 +19,7 @@ cse:
     client:
       serverUri: https://cse.cn-north-1.myhwclouds.com:443
   rest:
-    address: 0.0.0.0:8081
+    address: 0.0.0.0:8080
   credentials:
     accessKey: HRDJYOX1GAH651UXPBJG
     secretKey: 6SpWZedOf1wRDLZax4FJBeRlGBHIpciYGISNMMRy
