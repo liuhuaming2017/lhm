@@ -10,6 +10,10 @@ cse:
       address: https://cse.cn-north-1.myhwclouds.com:443
       instance:
         watch: false
+    references:
+      provider1:
+      version-rule: 0.0.1+
+      transport: rest
   config:
     client:
       serverUri: https://cse.cn-north-1.myhwclouds.com:443
