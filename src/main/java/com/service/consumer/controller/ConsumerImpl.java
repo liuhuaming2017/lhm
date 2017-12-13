@@ -24,5 +24,11 @@ public class ConsumerImpl {
 
         return userConsumerDelegate.helloworld(name);
     }
-
+    @RequestMapping(value = "/getuname",
+                    produces = { "application/json" },
+                    method = RequestMethod.GET)
+    public String getuname( @RequestParam(value = "name", required = true) String name,
+                          @RequestParam(value = "test", required = true) String test){
+        return userConsumerDelegate.getuname(name,test);
+    }
 }
